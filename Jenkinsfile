@@ -1,4 +1,4 @@
-/* Requires the Docker Pipeline plugin 123 */
+/* Requires the Docker Pipeline plugin 1234 */
 pipeline {
     agent { docker { image 'maven:3.8.7-eclipse-temurin-11' } }
     stages {
